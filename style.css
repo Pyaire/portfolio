@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #D9D9D9;
+}
+
+header{
+    background-color: white;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 5vw;
+    height: 5vw;
+}
+
+.identite{
+    display: flex;
+}
+
+header li{
+    display: inline;
+}
+
+.link  a{
+    color: black;
+    text-decoration: underline;
+}
+
