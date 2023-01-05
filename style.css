@@ -235,3 +235,8 @@ a{
   .contacts > img:hover{
     cursor: pointer;
   }
+
+  #comp{
+    width: 20vw;
+    height: auto;
+  }
