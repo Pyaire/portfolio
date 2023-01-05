@@ -10,8 +10,7 @@ body{
 }
 
 header{
-    background-color: white;
-    width: 100vw;
+    background-color: rgb(240, 240, 240);
     height: 20vh;
     display: flex;
     justify-content: space-between;
@@ -25,6 +24,11 @@ header img{
 
 .identite{
     display: flex;
+    margin-left: 3vw;
+}
+
+.txt{
+    margin-left: 1vw;
 }
 
 header li{
@@ -36,3 +40,198 @@ header li{
     text-decoration: underline;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
+#fleche{
+    width: 100vw;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.textParcours{
+    display: flex;
+    justify-content: space-around;
+}
+
+#gauche, #droite, #centre{
+    background-color: black;
+}
+
+.imgCercle{
+    border-radius: 50%;
+    width: 9vw;
+    height: auto;
+}
+
+header ul{
+    margin-right: 3vw;
+}
+
+#parcours div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#parcours div p{
+    padding: 3%;
+    border: solid black 1px;
+    width: 80vw;
+}
+
+#projetMain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4vw;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 1%;
+  }
+
+  #projetMain div img{
+    display: block;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+.projet{
+    background-color: #f6f6f6;
+    border-radius: 50px;
+    margin: 0vw 4vw;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.projet p{
+    position: relative;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projet img{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    ;
+}
+
+  #historieInteract {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+#lifeTycoon{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.modalbg{
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalpad{
+    padding: 2%;
+}
+
+.modalalign{
+    margin-top: 150px;
+}
+
+#pave{
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 80vh;
+    margin-bottom: 20vh;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a{
+    text-decoration: none;
+}
+
+#base:hover{
+    color: #3f3f3f;
+}
+
+#base{
+    font-size: 5em;
+    color: black;
+    margin-top: 30vh;
+    font-weight: bold;
+    padding-bottom: 5vh;
+}
+
+#index-link ul{
+    display: flex;
+    justify-content: center;
+    margin-top: -10vh;
+    margin-top: 5vh;
+}
+
+#index-link ul li{
+    display: inline;
+    padding: 10px;
+}
+
+
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10vw;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+
+  .contacts:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .contacts:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .contacts:nth-child(3) {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .contacts img{
+    width: 20vw;
+    height: auto    ;
+  }
+
+  .centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contacts > img{
+    width: 60vh;
+    height: auto;
+  }
+
+  .contacts > img:hover{
+    cursor: pointer;
+  }

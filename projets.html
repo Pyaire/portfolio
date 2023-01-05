@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="identite">
+            <img src="res/image/profile.jpg" alt="photoCV">
+            <div class="txt">
+                    <h1>Pierre Ansel</h1>
+                <p>Alternant en BUT informatique </p>
+            </div>
+        </div>
+        <div class="link">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li> <a href="parcours.html">Parcours</a> </li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+    </header>
+    <main id="projetMain">
+        <div class="projet" onclick="document.getElementById('id01').style.display='block' "id="historieInteract">
+            <img src="res/image/histoire.png" alt="image maison">
+            <p> Histoire interactive en HTML et CSS </p>
+        </div>
+            <div id="id01" class="w3-modal modalbg" style="display: none;">
+              <div class="w3-modal-content modalalign">
+                <div class="w3-container modalpad">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                  <p>Ce projet à été réalisé au lycée dans le cadre d'un DM de nsi</p>
+                  <p>il est réalisé en HTML et CSS et le lien pour acceder à l'histoire est <a href="https://pyaire.github.io/DM-nsi" target="_blank"> ici</a></p>
+                  <p>et le lien <a href="https://github.com/Pyaire/DM-nsi" target="_blank">github</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+                 
+        <div class="projet" onclick="document.getElementById('id02').style.display='block' " id="lifeTycoon">
+            <img src="res/image/manette.png" alt="image maison">
+            <p> Jeu en IJava de fin de semestre </p>
+        </div>
+        <div id="id02" class="w3-modal modalbg" style="display: none;">
+            <div class="w3-modal-content modalalign">
+              <div class="w3-container modalpad">
+                <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <p>c'est un projet de la fin du premier semestre, un jeu de type tycoon ou le but est de vendre des jouets pour acheter plus de biens</p>
+                <p>il est réalisé en Ijava, un language crée par l'IUT afin de facilité l'apprentisage de la programmation</p>
+                <p>et le lien <a href="https://github.com/Pyaire/SAE-1.02" target="_blank">github</a></p>
+              </div>
+            </div>
+          </div>
+        <div class="projet" onclick="document.getElementById('id03').style.display='block' " id="planKing">
+            <img src="res/image/plankingcomplet.png" alt="logo plan'king">
+            <p> Site d'entreprise fictive en HTML et CSS </p>
+        </div>
+        <div id="id03" class="w3-modal modalbg" style="display: none;">
+            <div class="w3-modal-content modalalign">
+              <div class="w3-container modalpad">
+                <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <p>c'est un projet de la fin du premier semestre, on a dû créer un site pour une entreprise fictive que nous avons choisi</p>
+                <p>il est réalisé en HTML et CSS, et le lien du site est <a href="https://pyaire.github.io/SA-106/">ici</a> </p>
+                <p>et le lien <a href="https://github.com/Pyaire/SA-106" target="_blank">github</a></p>
+              </div>
+            </div>
+          </div>
+        <!-- <div class="projet" id="historieInteract">
+            <img src="res/image/histoire.png" alt="image maison">
+            <p> Histoire interactive en HTML et CSS </p>
+        </div>
+        <div class="projet" id="historieInteract">
+            <img src="res/image/histoire.png" alt="image maison">
+            <p> Histoire interactive en HTML et CSS </p>
+        </div>
+        <div class="projet" id="historieInteract">
+            <img src="res/image/histoire.png" alt="image maison">
+            <p> Histoire interactive en HTML et CSS </p>
+        </div> -->
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

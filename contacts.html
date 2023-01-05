@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="identite">
+            <img src="res/image/profile.jpg" alt="photoCV">
+            <div class="txt">
+                    <h1>Pierre Ansel</h1>
+                <p>Alternant en BUT informatique </p>
+            </div>
+        </div>
+        <div class="link">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li> <a href="parcours.html">Parcours</a> </li>
+                <li><a href="Projets.html">Projets</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="centre">
+        <div class="contacts">
+        <!-- MAIL -->
+            <img src="res/image/mail.png" onclick="document.getElementById('imgContact').style.display='block' "alt="mail">
+            <div id="imgContact" class="w3-modal modalbg" style="display: none;">
+                <div class="w3-modal-content modalalign">
+                  <div class="w3-container modalpad">
+                    <span onclick="document.getElementById('imgContact').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                    <p>Mail perso : pierre[dot]ansel03[at]gmail[dot]com</p>
+                    <p>Mail étudiant : pierre[dot]ansel[dot]etu[at]univ-lille[dot]fr</p>
+                  </div>
+                </div>
+              </div>
+
+        <!-- GITHUB -->
+
+              <a href="https://github.com/Pyaire"> <img src="res/image/github.png" alt="logo github"></a>
+
+        <!-- INSTA -->
+
+              <a href="https://www.instagram.com/pierre_ansel/?hl=fr"> <img src="res/image/insta.png" alt=""></a>
+
+        </div>
+    </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
