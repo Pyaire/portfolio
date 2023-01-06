@@ -2,7 +2,9 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="res/image/des-documents.png" type="image/png">
     <title>Portfolio</title>
 </head>
 <body>
@@ -19,15 +21,154 @@
                 <li><a href="index.html">Accueil</a></li>
                 <li> <a href="parcours.html">Parcours</a> </li>
                 <li> <a href="competences.html">Compétences</a> </li>
-                <li><a href="Projets.html">Projets</a></li>
+                <li><a href="projets.html">Projets</a></li>
                 <li><a href="contacts.html">Contacts</a></li>
             </ul>
         </div>
     </header>
-    <main>
-        <div class="centre">
-            <img src="res/image/comp.png" id="comp" alt="competences">
+    <main id="competencesMain">
+
+
+
+        <div class="projet" onclick="document.getElementById('id20').style.display='block' "id="vscode">
+            <img src="res/image/vscode.png" alt="vscode logo">
+            <p> VS code </p>
         </div>
+            <div id="id20" class="w3-modal modalbg" style="display: none;">
+              <div class="w3-modal-content modalalign">
+                <div class="w3-container modalpad">
+                  <span onclick="document.getElementById('id20').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                  <p>VS code est un éditeur de code, dont je me sers pour mes projets :</p>
+                  <p> HTML / CSS | Python | C </p>
+                </div>
+              </div>
+            </div>
+          </div>
+                
+          
+
+
+
+        <div class="projet" onclick="document.getElementById('id21').style.display='block' " id="linux">
+            <img src="res/image/linux.png" alt="image maison">
+            <p> Linux </p>
+        </div>
+        <div id="id21" class="w3-modal modalbg" style="display: none;">
+            <div class="w3-modal-content modalalign">
+              <div class="w3-container modalpad">
+                <span onclick="document.getElementById('id21').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <p>Linux est une famille de système d'exploitation open source, principalement utilisé dans le monde de la programmation</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        <div class="projet" onclick="document.getElementById('id22').style.display='block' " id="java">
+            <img src="res/image/java.png" alt="logo plan'king">
+            <p> Java </p>
+        </div>
+        <div id="id22" class="w3-modal modalbg" style="display: none;">
+            <div class="w3-modal-content modalalign">
+              <div class="w3-container modalpad">
+                <span onclick="document.getElementById('id22').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <p>Java est un language orienté objet sortie en 1995 et qui est polyvalant car fonctionne sur une machine virtuelle,</p>
+                <p>ce qui explique qu'il peut fonctionner qu'importe l'OS utilisé lors de la programmation</p>
+                <br>
+                <p>Je me suis servi d'une variante de java développé par l'université dans le cadre du projet de jeu de fin de semestre</p>
+              </div>
+            </div>
+          </div>
+ 
+
+          <div class="projet" onclick="document.getElementById('id23').style.display='block' " id="sql">
+            <img src="res/image/sql.png" alt="logo plan'king">
+            <p> SQL </p>
+        </div>
+        <div id="id23" class="w3-modal modalbg" style="display: none;">
+            <div class="w3-modal-content modalalign">
+              <div class="w3-container modalpad">
+                <span onclick="document.getElementById('id23').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <p>SQL ou (structured query language) est un language permettant de communiquer avec des bases de données</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="projet" onclick="document.getElementById('id27').style.display='block' " id="office">
+            <img src="res/image/office.png" alt="logo plan'king">
+            <p> pack office </p>
+        </div>
+        <div id="id27" class="w3-modal modalbg" style="display: none;">
+            <div class="w3-modal-content modalalign">
+              <div class="w3-container modalpad">
+                <span onclick="document.getElementById('id27').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+              <p>Le pack office, je m'en sers assez régulièrement dans le cadre de mon alternance afin de faire des présentation, faire des formulaires, de la documentation, ...</p>  
+              </div>
+            </div>
+          </div>
+ 
+          <div class="projet" onclick="document.getElementById('id24').style.display='block' " id="htmlcss">
+            <img src="res/image/htmlcss.png" alt="logo plan'king">
+            <p> HTML CSS </p>
+        </div>
+        <div id="id24" class="w3-modal modalbg" style="display: none;">
+            <div class="w3-modal-content modalalign">
+              <div class="w3-container modalpad">
+                <span onclick="document.getElementById('id24').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <p>HTML est un language de balise, utilisé afin de créer la structure d'une page internet</p>
+                <p>CSS est un language qui lui, sert pour la mise en forme d'une ou plusieurs page internet </p>
+                <br>
+                <p>Je me sers de ces languages dans les projets d'histoire interactive ainsi que dans le projet d'entreprise fictive</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="projet" onclick="document.getElementById('id25').style.display='block' " id="eclipse">
+            <img src="res/image/eclipse.png" alt="logo plan'king">
+            <p> Eclipse </p>
+        </div>
+        <div id="id25" class="w3-modal modalbg" style="display: none;">
+            <div class="w3-modal-content modalalign">
+              <div class="w3-container modalpad">
+                <span onclick="document.getElementById('id25').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <p>Eclipse est un éditeur de code, principalement utilisé pour le Java</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="projet" onclick="document.getElementById('id26').style.display='block' " id="htmlcss">
+            <img src="res/image/c.png" alt="logo plan'king">
+            <p> C </p>
+        </div>
+        <div id="id26" class="w3-modal modalbg" style="display: none;">
+            <div class="w3-modal-content modalalign">
+              <div class="w3-container modalpad">
+                <span onclick="document.getElementById('id26').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <p>C est un language de programmation bas niveau (plus proche du language machine) qui vue le jour dans les années 70</p>
+                <p>encore aujourd'hui, c'est un language encore beaucoup utilisé</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="projet" onclick="document.getElementById('id29').style.display='block' " id="htmlcss">
+            <img src="res/image/git.png" alt="logo plan'king">
+            <p> git </p>
+        </div>
+        <div id="id29" class="w3-modal modalbg" style="display: none;">
+            <div class="w3-modal-content modalalign">
+              <div class="w3-container modalpad">
+                <span onclick="document.getElementById('id29').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <p>GIT est un controleur de version gratuit et open source, utilisé dans absolument tous mes projets </p>
+              </div>
+            </div>
+          </div>
     </main>
     <footer>
 

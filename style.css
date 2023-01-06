@@ -94,6 +94,21 @@ header ul{
     margin-top: 1%;
   }
 
+  #competencesMain {
+    display: grid;
+    grid-template-columns: repeat(3, 1);
+    grid-gap: 4vw;
+    /* row-gap: 30vh; */
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 1%;
+  }
+
+  #competencesMain div img{
+    display: block;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
   #projetMain div img{
     display: block;
     border-top-left-radius: 50px;
@@ -107,6 +122,8 @@ header ul{
     align-items: center;
     flex-direction: column;
     cursor: pointer;
+    /* min-width: 503px;
+    min-height: 214px; */
 }
 
 h2{
@@ -130,12 +147,12 @@ h2{
     ;
 }
 
-  #historieInteract {
+  #historieInteract, #vscode{
     grid-column: 1;
     grid-row: 1;
   }
 
-#lifeTycoon{
+#lifeTycoon, #linux{
     grid-column: 2;
     grid-row: 1;
 }
@@ -240,3 +257,19 @@ a{
     width: 20vw;
     height: auto;
   }
+
+  #java{
+    grid-column: 3;
+    grid-row: 1 ;
+  }
+
+  #sql{
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  #office{
+    grid-column: 1;
+    grid-row: 2;
+  }
+
